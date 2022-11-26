@@ -170,4 +170,6 @@
 ![image_10](https://sun9-60.userapi.com/impg/nux0zXRQGntVyN-a7n5L2ZLfD703ed47LNA7Fg/Les_MisAjog.jpg?size=781x1111&quality=95&sign=eeee4bf521a845edb7b34cde7126da92&type=album)
 
 
-# Это демо версия. В со времинем я разработаю дальнейшие действи при работе с гит.
+# Делаем ответвление 
+
+## Чтобы понять картинку выше приведу пример.
