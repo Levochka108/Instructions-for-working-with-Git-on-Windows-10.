@@ -176,4 +176,4 @@
 ![image_11](https://sun9-79.userapi.com/impg/obJ5tmjabALmMPks9DV2xtUWbIeQLrKoUtdZAA/QDZQhZUR3T8.jpg?size=401x261&quality=95&sign=f9952bdaaf2c6a1987f94f1c8694dfce&type=album)
 * Чтобы создать ветку пишем следующую команду 
                 
-                 git branch Название вашей ветки
+                 git branch Название Вашей ветки
