@@ -177,3 +177,30 @@
 * Чтобы создать ветку пишем следующую команду 
                 
                  git branch Название вашей ветки
+
+
+## Далее делаем работу во второй ветке
+![image_12](https://sun9-84.userapi.com/impg/HcGkom51CDTSeNN7n4xvxgFwgzJ5cU8P4gyCYQ/JSDgfnX5IyE.jpg?size=491x521&quality=95&sign=eb288421ecc16354e919ce43a99b05fb&type=album)
+
+* Незабываем сохранять файл и следуем следующим командам 
+
+                        git add .
+
+                        git commit -m 'Ваш комит'
+
+                        git checkout master 
+                        
+                        Посмотреть где мы:
+
+                        git branch
+
+## Соединяем ветки
+![image_13](https://sun9-20.userapi.com/impg/AcVOh3C4FC7sW3MISHNizvgvz6Ll85EeKQ7m0A/ge5kZeHI1cM.jpg?size=512x701&quality=95&sign=610a83b348e83a53cb83abc15095d857&type=album)
+
+* Чтобы соединить наши ветки используем слюдеющий код 
+
+                        git checkout master
+
+                        git merge Название Вашей 2 ветки
+
+                        
