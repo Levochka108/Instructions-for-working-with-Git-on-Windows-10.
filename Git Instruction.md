@@ -56,8 +56,8 @@
     * Если вы никогда ранее не использовали `git`, необходимо осуществить установку, чтобы `git` узнал ваше `имя` и `электронную почту`.
         
 
-                git config --global user.name "Your Name"
-                git config --global user.email "your_email@whatever.com" 
+        git config --global user.name "Your Name"
+        git config --global user.email "your_email@whatever.com" 
 
     * Далее мы проверяем статус программы:
             
@@ -110,6 +110,7 @@
 
 
 #  Рассмотрим `git status` в моем случае.
+
 ![image_05](https://sun9-73.userapi.com/impg/dUxgkBp9ePQUEiikkUMJILJ7o70ZVMUBYvMlkw/Y8Mh8tjStPQ.jpg?size=1129x340&quality=95&sign=3308cda14b8b87139c7ed9c0fb33229f&type=album)
 
    * Я нахожусь в ветке мастер.
@@ -161,23 +162,31 @@
 * Мы видем, что программа создала папку .git (*пустой git репозиторий*) это скрытая системная папка, в которой происходит версионирование. 
 * ## Что произошло после команды git add Git Instruction.md .
   * git add . Работает примерно также.
+
+
 ![image_07](https://sun9-7.userapi.com/impg/4IZuZ_XgJzkaqckTSSc8PC8A8j4iZRwij2gaOw/CcRxPqLPT6g.jpg?size=764x655&quality=95&sign=74230f0dc01c859a3a75aca2a28681e2&type=album) 
 
 * ## Что произошло после команды git commit -m 'First commit' .
   * Наш фаил попадает в репозиторий гит где он и хранится.
 
 ![image_08](https://sun9-77.userapi.com/impg/BLm-3Iaj4evSYBAXDq2B37Tj6V0WVsiQ61wRNw/HbRuNMWDNEg.jpg?size=776x507&quality=95&sign=47166e4f81a6c018c305f9647d3c927e&type=album)
+
+
 * ## Примерно так выглядит история версий в git. 
+
+
 ![image_10](https://sun9-60.userapi.com/impg/nux0zXRQGntVyN-a7n5L2ZLfD703ed47LNA7Fg/Les_MisAjog.jpg?size=781x1111&quality=95&sign=eeee4bf521a845edb7b34cde7126da92&type=album)
 
 
 # Делаем ответвление 
 
 ## Чтобы понять картинку выше приведу пример.
+
+
 ![image_11](https://sun9-79.userapi.com/impg/obJ5tmjabALmMPks9DV2xtUWbIeQLrKoUtdZAA/QDZQhZUR3T8.jpg?size=401x261&quality=95&sign=f9952bdaaf2c6a1987f94f1c8694dfce&type=album)
 * Чтобы создать ветку пишем следующую команду 
                 
-                 git branch Название вашей ветки
+        git branch Название вашей ветки
 
 
 ## Далее делаем работу во второй ветке
@@ -185,26 +194,45 @@
 
 * Незабываем сохранять файл и следуем следующим командам 
 
-                        git add .
+        git add .
 
-                        git commit -m 'Ваш комит'
+        git commit -m 'Ваш комит'
 
-                        git checkout master 
+        git checkout master 
                         
-                        Посмотреть где мы:
+        Посмотреть где мы:
 
-                        git branch
+        git branch
 
 ## Соединяем ветки
 ![image_13](https://sun9-20.userapi.com/impg/AcVOh3C4FC7sW3MISHNizvgvz6Ll85EeKQ7m0A/ge5kZeHI1cM.jpg?size=512x701&quality=95&sign=610a83b348e83a53cb83abc15095d857&type=album)
 
 * Чтобы соединить наши ветки используем слюдеющий код 
 
-                        git checkout master
+         git checkout master
 
-                        git merge Название Вашей 2 ветки
+         git merge Название Вашей 2 ветки
                         
 
 
 
-                        
+# Работа с удаленным репозиторием **git**, с помощью **GitHub**.
+![image_14](https://sun9-36.userapi.com/impg/l7kOlZiCR5Zp1zOLQHoyp7fW6wsinPje5QcgvA/UYAKEwfEf0k.jpg?size=395x571&quality=95&sign=303cd47f78a06a42213760010878955e&type=album)
+## Начало работы с GitHub.
+
+* Регистрируемся в **GitHub**.
+* Создаем там репозиторий куда будем отправлять наш фаил.
+
+![inage_15](https://sun9-81.userapi.com/impg/uDhVkgfy5dRw6PM_iUKkSrck4fJ9tSedCzPkNw/gJYDPX9ufEw.jpg?size=753x874&quality=95&sign=fc58e0cf7b06559d5db060240375f33a&type=album) 
+
+
+* Даем имя репозиторию.
+* Выбираем формат `ПАБЛИК`.
+* По началу нам больше ничего не нужно.
+* Нажимаем кнопку создать репозиторий.
+* Далее мы видет такое окно.
+
+
+![image16](https://sun9-73.userapi.com/impg/hPwv9bsx6hSbDdV_C7_t56m_zrrVJhFnMSJ7vA/nNA8sYwaLfk.jpg?size=928x750&quality=95&sign=7ce967aa192d555051244665e5e301c9&type=album)
+* Следуем иструкции.
+* После проверяем, что мы выгрузили в наш репозиторий.
