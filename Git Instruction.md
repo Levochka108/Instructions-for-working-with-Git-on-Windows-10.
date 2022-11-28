@@ -21,7 +21,8 @@
 * Пройти установку.
 
 ##  Запускаем программу `Git Bash` или открываем её сразу в папке проекта.
-
+![image_13](https://sun9-36.userapi.com/impg/0vy6Rab0UmOV4uDBaxKrQVJGElUdWp9FUgPgqA/paFSuoQDok4.jpg?size=337x395&quality=95&sign=b1b46d1df946df67ce0aceaaea18d380&type=album)
+![image_12](https://sun9-83.userapi.com/impg/U5ezaXr4jLnHqBHSW5fQxrC6DxseFQZjNgcAFw/kIl_Lzi6WQ0.jpg?size=495x564&quality=95&sign=62e3ab580ee4f04f3ea6f90715a7cdfe&type=album)
 
 
 * В качестве примера буду использовать [Visual Studio Code].
