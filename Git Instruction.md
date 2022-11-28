@@ -39,10 +39,10 @@
         
 ## Я буду показывать на примере этих команд:
 
-* init (initiated, Инициированный)
-* add (Добавить)
-* status (Статус)  
-* commit (Совершить)
+* `init` (initiated, Инициированный)
+* `add` (Добавить)
+* `status` (Статус)  
+* `commit` (Совершить)
 
 
 ![image_04](https://sun9-16.userapi.com/impg/ioswCtQP8A8XaVYISdKIs6-JnbmzW5dTSSPolA/q8yHDawWl8s.jpg?size=832x291&quality=95&sign=e0c4b1e8a46c3a5f8cba8108071cbd15&type=album)
@@ -203,5 +203,8 @@
                         git checkout master
 
                         git merge Название Вашей 2 ветки
+                        
+
+
 
                         
