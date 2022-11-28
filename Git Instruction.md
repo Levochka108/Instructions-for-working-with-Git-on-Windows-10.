@@ -186,9 +186,9 @@
 ![image_11](https://sun9-79.userapi.com/impg/obJ5tmjabALmMPks9DV2xtUWbIeQLrKoUtdZAA/QDZQhZUR3T8.jpg?size=401x261&quality=95&sign=f9952bdaaf2c6a1987f94f1c8694dfce&type=album)
 * Чтобы создать ветку пишем следующую команду 
                 
-<<<<<<< HEAD
-                 git branch Название Вашей ветки
-=======
+
+        git branch Название Вашей ветки
+
         git branch Название вашей ветки
 
 
@@ -239,4 +239,4 @@
 ![image16](https://sun9-73.userapi.com/impg/hPwv9bsx6hSbDdV_C7_t56m_zrrVJhFnMSJ7vA/nNA8sYwaLfk.jpg?size=928x750&quality=95&sign=7ce967aa192d555051244665e5e301c9&type=album)
 * Следуем иструкции.
 * После проверяем, что мы выгрузили в наш репозиторий.
->>>>>>> brNewText
+
